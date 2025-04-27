@@ -18,7 +18,7 @@ jobs:
       - name: setup env
         uses: actions/setup-python@v2
         with:
-          python-version:'3.8' 
+          python-version: '3.8' 
     #step 3: install dependencies
       - name: install depedencies
         run: |
